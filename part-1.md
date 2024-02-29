@@ -19,7 +19,7 @@ pip install discord.py
 
 If the installation was successful, It should look something like this:
 
-![Image of discord.py installation through pip](https://cdn.discordapp.com/attachments/1105895203530874912/1206835849506062396/image.png?ex=65dd7478&is=65caff78&hm=ce9a246983f9491fa022d9e32795a3ff21de4d8e63ece2e6efec1ac32ddfb83e&)
+![Image of discord.py installation through pip](assets\image.png)
 
 Once this is done, we can start with writing some code to create our first ever discord bot written in python!
 
