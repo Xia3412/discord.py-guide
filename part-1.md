@@ -143,7 +143,7 @@ Now it's just that you have to insert a line at the end of your code, which is `
 
 A bot token is a **long string of characters** that looks similar to the image attached below this message.
 
- ![Discord Bot Token Example](https://cdn.discordapp.com/attachments/1105895203530874912/1206832236293394523/image.png?ex=65dd711a&is=65cafc1a&hm=4af712120e2abf00c04275ea89a189a6516da8daf643dd8bf961e58de5b889a8&)
+ ![Discord Bot Token Example](assets/image1.png)
 
  It's crucial to keep your bot token **secret and never share it publicly, as anyone with access to the token can control your bot**. If your token is compromised, you should regenerate it immediately through the [Discord Developer Portal](https://discord.com/developers/docs/intro) by clicking on the `Reset Token` button!
 
@@ -182,11 +182,11 @@ We just have to run this code and the terminal should display a message saying t
 
 This is how it should look like if everything is setup correctly
 
-!["Discord Bot starting image"](https://cdn.discordapp.com/attachments/1105895203530874912/1206837432004255825/image.png?ex=65dd75f1&is=65cb00f1&hm=479ffcd94f0d2ac5b608699f439a0a0154fd31f2170b9e5cb8b1759e6276fcfc&)
+!["Discord Bot starting image"](assets/image2.png)
 
 As we can see in the above image, the bot **logged in successfully and is now online!**
 
-!["Image of bot showing as online"](https://cdn.discordapp.com/attachments/1105895203530874912/1206838984739655740/image.png?ex=65dd7763&is=65cb0263&hm=160af0863cbd8e523b777d255e7e11f62a5c95f94133c17fc745c4647d8dc633&)
+!["Image of bot showing as online"](assets/image3.png)
 
 But the bot doesn't do anything as of now, **because we haven't created any commands for our bot.**
 
@@ -239,27 +239,27 @@ It is to be noted that `ctx` name is **purely just a naming convention** which i
 
 - `ctx.author.id`: This returns an **integer representing the User ID** of the user who used that particular command.
 
-![usage of ctx.author.id attribute](https://cdn.discordapp.com/attachments/1105895203530874912/1206863700707774505/image.png?ex=65dd8e68&is=65cb1968&hm=5fc91e6e9eb41de993b20fd25b048bff26f1095165103ccfad6afece5ec935d2&)
+![usage of ctx.author.id attribute](assets/image4.png)
 
 - `ctx.author.mention`: This will return a string that mentions the user who triggered the command.
 
-![usage of ctx.author.mention attribute](https://cdn.discordapp.com/attachments/1200718833648926833/1206864009588899840/image.png?ex=65dd8eb2&is=65cb19b2&hm=445782ea546f60b8f0bc6c6bd897961f42af8b8671027d0426cdf06970b95962&)
+![usage of ctx.author.mention attribute](assets/image5.png)
 
 - `ctx.author.name`: This returns a **string which represents the user's global name**( which is called **username** because discord doesn't support discriminators( #0000 ) anymore ) who triggered the particular command.
 
-![usage of ctx.author.name attribute](https://cdn.discordapp.com/attachments/1200718833648926833/1206864387357278239/image.png?ex=65dd8f0c&is=65cb1a0c&hm=c7e815bddcf3b9f24f3bb15f6de1f062f3541d0019c0fc1b687a8831c4e8eb73&)
+![usage of ctx.author.name attribute](assets/image6.png)
 
 - `ctx.author.avatar.url`: This returns an **url which represents the user's avatar( or pfp )** who triggered the command.
 
-![usage of ctx.author.avatar.url attribute](https://cdn.discordapp.com/attachments/1200718833648926833/1206864602298585098/image.png?ex=65dd8f3f&is=65cb1a3f&hm=4433c2d5cc640c1fca31c8901194041b438ceb307a5bb4a282223fe38b13f461&)
+![usage of ctx.author.avatar.url attribute](assets/image7.png)
 
 - `ctx.send`: As simple as it sounds, this is used to **send a message in the channel the user triggered the command**.
 
-![usage of ctx.send attribute](https://cdn.discordapp.com/attachments/1200718833648926833/1206864750907105310/image.png?ex=65dd8f63&is=65cb1a63&hm=2a0cf586ec781c35e4afb7bf3255ec2206ad7786a5640e4a4d3fb57f7fff0efd&)
+![usage of ctx.send attribute](assets/image8.png)
 
 - `ctx.reply`: Used for **replying to the user's message** when that user triggers that command.
 
-![usage of ctx.reply attribute](https://cdn.discordapp.com/attachments/1200718833648926833/1206864905496567819/image.png?ex=65dd8f87&is=65cb1a87&hm=fa9d267be9a48a04b92ea209003fc5e86677be5afcc1750949bd5ca8f46460b6&)
+![usage of ctx.reply attribute](assets/image9.png)
 
 For more info, you can visit the **official documentation of discord.py** for learning more about [Context](https://discordpy.readthedocs.io/en/v2.3.2/ext/commands/api.html?highlight=context#discord.ext.commands.Context).
 
